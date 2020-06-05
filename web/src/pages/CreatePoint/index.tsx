@@ -103,9 +103,7 @@ const CreatePoint = () => {
             setSelectedItems(filteredItems)
         }else{
             setSelectedItems([...selectedItems, id]);
-        }
-
-        
+        } 
     }
 
     function handleInputChange(event: ChangeEvent<HTMLInputElement>){
